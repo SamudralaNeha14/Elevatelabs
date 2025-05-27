@@ -1,5 +1,5 @@
 # Elevatelabs
-
+**Task-1**
 The Titanic dataset undergoes a structured preprocessing pipeline to ensure data quality and facilitate effective machine learning modeling.
 
 1. **Data Loading**: The dataset, titled *Titanic-Dataset.csv*, is read into a pandas DataFrame, allowing for further manipulation and analysis.
@@ -15,3 +15,16 @@ The Titanic dataset undergoes a structured preprocessing pipeline to ensure data
 6. **Outlier Visualization**: Boxplots are generated to examine the distribution of numerical variables, identifying extreme values that may affect model performance.
 
 7. **Outlier Removal**: The *Interquartile Range (IQR) Method* is employed to detect and eliminate outliers from the dataset, enhancing data quality by reducing statistical noise.
+
+**Task-2**
+
+
+ ### **Exploratory Data Analysis (EDA) Summary**
+
+1. **Data Loading & Inspection**: The dataset is imported, and its structure, data types, and missing values are analyzed.  
+2. **Handling Missing Values**: `'Age'`, `'Cabin'`, and `'Embarked'` are imputed appropriately, ensuring no gaps remain.  
+3. **Summary Statistics**: Key numerical features are examined using mean, median, and standard deviation.  
+4. **Visualizations**: Histograms and boxplots reveal feature distributions and detect outliers.  
+5. **Feature Relationships**: Pairplots and correlation heatmaps highlight dependencies between variables.  
+6. **Feature-Level Inferences**: Survival rates are assessed across passenger class, gender, age, fare, and family size, revealing significant trends.  
+
